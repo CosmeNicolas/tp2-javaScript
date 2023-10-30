@@ -5,13 +5,24 @@ Nota: ver funcion Math() https://www.w3schools.com/js/js_math.asp
  */
 
 
-//const nombrePersona = prompt('ingrese su nombre');
-//console.log(primeraPersona[0])
-for (let nombre = 0; nombre< 3; nombre++){
-    let persona =[ prompt('ingrese su nombre')]
-    console.log(persona)
-    for (edad = 0; edad < 3 ; edad++){
-        let edad = [prompt('Ingrese su edad')]
-        console.log(edad)
-    }
+
+for (let nombre = 0; nombre < 2; nombre++){
+    const persona = [prompt('ingrese su nombre')];
+    const edad = [prompt('Ingrese su edad')];
+    const personaYedad =(persona.concat(edad));
+    
+    console.log(personaYedad);
+    //console.log(persona1);
+
+    
+    //let personaEdad = []
+   
+    //console.log(persona + " "+ edad);
+    /*if(edad  > edad){
+        console.log('La primera  es mayor a las otras 2')
+    }if(edad > edad ){
+         console.log('La primera  es mayor a la 1 y 3')
+    }if(edad  > edad ){
+         console.log('La primera  es mayor a la 1 y 2')
+        }*/
 }

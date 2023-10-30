@@ -7,15 +7,28 @@
 8-9: Notable
 10: Sobresaliente */
 
-const nota = parseInt(prompt('Ingrese su nota de 0 a 10'));
+const nota = parseInt(prompt("Ingrese su nota"));
 
-for (let index = 0; index < nota; index++) {
-  if(nota <= 0 || nota <= 2) {
-    alert('Su nota es Muy deficiente')
-  }
-  
+if (nota === 0 || nota === 1 || nota === 2) {
+  alert('Su nota es "Muy Deficiente"');
+}
+if (nota === 3 || nota === 4) {
+  alert('Su nota es "Insuficiente"');
+}
+if (nota === 5 || nota === 6) {
+  alert('Su nota es "Suficiente"');
+}
+if (nota === 7) {
+  alert('Su nota esta "Bien"');
+}
+if (nota === 8 || nota === 9) {
+  alert('Su nota es "Notable"');
+}
+if (nota === 10) {
+  alert('Su nota es "Sobresaliente"');
+} else if (nota > 10 || nota < 0) {
+  alert("Numero Erroneo");
 }
 
-/*else {
-  alert('no esta en el rango de los numeros solicitados de 0 a 10')
-}*/
+
+git

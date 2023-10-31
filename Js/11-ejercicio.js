@@ -34,37 +34,3 @@ if(personaEdad1 > personaEdad2 && personaEdad1 > personaEdad3){
 
 
 
-
-//solucion con errores 
-/*for (let nombre = 0; nombre < 1; nombre++) {
-    const persona = [prompt('ingrese su nombre')];
-    const edad = [prompt('Ingrese su edad')];
-    const personaYedad = (persona.concat(edad));
- 
-    const persona1 = []
-    console.log(personaYedad[personaYedad.length - 1]);
-
-
-
-agregar elementos a un arrelglo
-    persona1.push(personaYedad[1])
-    console.log(persona1)
-
-console.log(personaYedad2[0,1]);
-if(personaYedad1[0,1] > personaYedad2[0,1]){
-    alert('la primera persona es mayor a la segunda')
-    
-console.log(persona1);
-
-
-let personaEdad = []
-
-console.log(persona + " "+ edad);
-if(edad  > edad){
-        console.log('La primera  es mayor a las otras 2')
-    }if(edad > edad ){
-         console.log('La primera  es mayor a la 1 y 3')
-    }if(edad  > edad ){
-         console.log('La primera  es mayor a la 1 y 2')
-        
-}*/

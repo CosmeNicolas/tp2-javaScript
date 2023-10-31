@@ -5,28 +5,11 @@
 
 Nota: usar confirm() https://www.w3schools.com/jsref/met_win_confirm.asp*/
 
-
-
-let texto = prompt('ingrese su texto');
-//let cadenas = [];
-//cadenas.push(texto)
-
-for (let i = 1; i <= 10; i++) {
-    if(confirm()== true){
-    } else if (confirm(texto)== false) {
-        document.write('texto falso - ')
-    };
-    
-    console.log(texto)
+ 
+ while (confirm('Desea ingresar Texto?')) {
+    const texto = prompt('Ingrese su tenxto');
+        document.write(texto + "-" ) 
 }
 
 
-//console.log(cadenas)
-
-/*let cadena = confirm(texto);
-
-if(confirm(cadena)== true){
-    console.log('es verdadero')
-} else {
-    console.log('es false')
-}*/
+ 

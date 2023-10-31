@@ -13,7 +13,7 @@ if(confirm('desea ingresar un numero') == true){
     alert('es falso')
   }
   
- 
+ console.log(numerosSumados)
 
 
 

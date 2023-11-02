@@ -8,12 +8,33 @@
 22
 1
  */
-//const numero = 50;
-const piramide= parseInt(prompt('ingrese un numero no mayor a 50'))
-  
-/*if(piramide > 0 && piramide < 51 ){
-  for(let i = 0; )
-} else {
-  alert('no es un numero valida')
-}*/
 
+
+
+let numeroPiramide= parseInt(prompt('ingrese un numero no mayor a 50'));
+
+if(numeroPiramide > 1 && numeroPiramide < 51 ){
+  for(let numero = 0; numero <= numeroPiramide ; numeroPiramide--){
+   for(let i = 0 ; i <= numeroPiramide; i++)
+   document.write(`<strong>${numeroPiramide}</strong>`)
+   document.write(`<br>`)
+     
+  }
+} else {
+  alert('numero incorrecto, ingrese un numero del 1 al 50')
+}
+
+ 
+
+
+
+
+
+/*
+for (let piramide = 1; piramide <= numeroPiramide; piramide++) {
+  for (let i = 1; i <= piramide; i++) {
+   
+    document.write(`<strong>${piramide}</strong>`)
+  }
+  document.write(`<br>`)
+}*/

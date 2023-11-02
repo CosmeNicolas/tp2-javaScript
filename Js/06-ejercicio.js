@@ -13,7 +13,6 @@
 
 for (let piramide = 1; piramide <= 30; piramide++) {
   for (let i = 1; i <= piramide; i++) {
-
     document.write(`<strong>${piramide}</strong>`)
   }
   document.write(`<br>`)

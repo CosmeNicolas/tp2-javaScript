@@ -22,9 +22,8 @@ ver switch
 
 do {
   let dni = parseInt(prompt('Ingrese su DNI'));
-  let letraDni = dni % 22;
-
-  if (letraDni >= 1 && letraDni < 1000000000) {
+  if (dni >= 0 && dni < 1000000000) {
+    let letraDni = dni % 23;
     switch (letraDni) {
       case 0:
         console.log('su letra es "T')
@@ -101,6 +100,6 @@ do {
     };
   } else {
     alert('No es un numero, ingrese un numero valido')
-  };
+  }
 } while (confirm('Desea ingresar otro numero?'))
 

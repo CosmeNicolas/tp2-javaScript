@@ -11,18 +11,14 @@
 
 let numeroPiramide = parseInt(prompt('ingrese un numero entre 1 y 50'));
 
-if(numeroPiramide > 0 && numeroPiramide < 51){
-  for(let i = 1; i <= numeroPiramide; i++){
-    for(let i = 1; i <= numeroPiramide; i++){
-      document.write(`${i+numeroPiramide}`)
-
-    }
-    
-    document.write(`<br>`)
+if(numeroPiramide >=1 && numeroPiramide <=50){
+  for (let piramide = 1; piramide <= numeroPiramide; piramide++) {
+  for (let i = 1; i <= piramide; i++) {
+    let numero = 1;
+    document.write(`<strong>${piramide}</strong>`)
   }
-
-}else {
-  alert('No es un numero entre 1 y 50, ingrese un numero valido')
+  document.write(`<br>`)
 }
-
-
+} else {
+  alert('ingrese un numero valido')
+}

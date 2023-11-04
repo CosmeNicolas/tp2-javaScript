@@ -4,6 +4,9 @@
 
 while(confirm('Desea ingresar un numero?')){
   let numero = parseInt(prompt('ingrese un numero'))
+  console.log(numero)
+  let sumas = numero + numero
+  document.write(" "+ sumas +" ")
   if(!numero){
     alert('no es un numero')
   }

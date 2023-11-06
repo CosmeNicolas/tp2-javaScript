@@ -1,3 +1,7 @@
 .linea {
   border: 5px dashed rgb(88, 12, 124);
 }
+
+.celdas {
+  border: solid 2px rgb(0, 255, 0);
+}

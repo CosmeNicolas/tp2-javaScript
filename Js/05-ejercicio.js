@@ -24,6 +24,7 @@ do {
   let dni = parseInt(prompt('Ingrese su DNI'));
   if (dni >= 0 && dni < 1000000000) {
     let letraDni = dni % 23;
+    console.log(letraDni)
     switch (letraDni) {
       case 0:
         console.log('su letra es "T')
